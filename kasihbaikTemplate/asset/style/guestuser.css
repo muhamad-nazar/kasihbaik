@@ -137,7 +137,7 @@
 }
 
 #pemisah {
-    max-width: 380px;
+    width: 360px;
     height: 4px;
     background: #F1F3F6;
     position: absolute;
@@ -145,7 +145,7 @@
 }
 
 #pemisah1 {
-    max-width: 380px;
+    width: 360px;
     height: 4px;
     background: #F1F3F6;
     position: absolute;
