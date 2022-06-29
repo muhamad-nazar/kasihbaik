@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasih Baik | Guest User</title>
+
+    <!-----------------------Uikit--------------------------------------->
+    <link rel="stylesheet" href="../asset/uikit/css/uikit.min.css">
+    <script src="../asset/uikit/js/uikit.min.js"></script>
+    <script src="../asset/uikit/js/uikit-icons.min.js"></script>
+    <!-----------------------End Uikit--------------------------------------->
+
+    <!----------------------Mobile Width CSS--------------------------------->
+    <link rel="stylesheet" href="../asset/style/mobile.css">
+    <link rel="stylesheet" href="../asset/style/guestuser.css">
+
+</head>
+
+<body>
+    <!-----------------------Navbar---------------------------------------->
+    <div class="nav" id="navimg">
+        <span id="navimgshadow"></span>
+
+        <nav class="uk-navbar-container" id="navguest" uk-navbar>
+
+            <div class="uk-navbar-left">
+                <!------------Profile Nav------------------->
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <img src="../asset/img/profile.png" alt="profile" id="profilenav"> <span id="sapa">Hai, <span id="bold">Orang Baik!</span></span>
+                    </li>
+                </ul>
+                <!-----------End Profile Nav--------------->
+            </div>
+
+            <!-------Suka Dan Notif-------------------->
+            <div class="uk-navbar-right" style="margin-top: 8px;">
+                <ul class="uk-navbar-nav">
+                    <!--------------------Suka--------------------------->
+                    <li style="margin-right: -10px;">
+                        <a href="" uk-icon="icon: suka"></a>
+                        <!--------------------Suka--------------------------->
+                    </li>
+                    <!--------------------Notif--------------------------->
+                    <li style="color: #fff;">
+                        <a href="" uk-icon="icon: notifikasi"></a>
+                    </li>
+                    <!--------------------Suka--------------------------->
+                </ul>
+            </div>
+            <!-------Suka Dan Notif-------------------->
+        </nav>
+
+    </div>
+    <!-----------------------Navbar---------------------------------------->
+    <span id="pemisah"></span>
+    <!--------------Section Mau ngapain Hari ini ?------------------------->
+    <div class="uk-container" id="section1">
+
+        <p id="judulsection1">Mau Ngapain Hari ini?</p>
+
+        <div class="uk-grid-match" uk-grid>
+            <div class="uk-text-start">
+                <a href="" uk-icon="icon: tempatkasih" style="color: #1891DB;"></a>
+                <br>
+                <p id="linksection">Tempat Kasih</p>
+            </div>
+            <div class="uk-text-start" style="margin-left: -30px;">
+                <a href="" uk-icon="icon: kasihbarang" style="color: #27AE60;"></a>
+                <br>
+                <p id="linksection">Kasih Barang</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-----------End Section Mau ngapain Hari ini ?------------------------>
+
+    <!----------------------Nav Slide Switcher---------------------->
+    <ul class="uk-child-width-expand" uk-tab id="tabswitcher">
+        <li class="uk-active"><a href="#" id="tabswitcherlink">Terbaru</a></li>
+        <li><a href="" id="tabswitcherlink">Terdekat</a></li>
+        <li><a href="" id="tabswitcherlink">Saran</a></li>
+    </ul>
+
+    <ul class="uk-switcher uk-margin">
+        <!------------------------Tempat Kasih Terbaru-------------------------->
+
+        <li id="terbaru">
+
+            <!------------------------Tempat Kasih-------------------------->
+            <div class="link">
+                <p class="uk-text-left uk-margin tk">Tempat Kasih</a>
+
+                    <a href="" class="uk-text-right ls">Lihat semua</a>
+            </div>
+
+            <!-------------------------Slider--------------------------->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+                <!----------Tempat Kasih List------------------->
+                <ul class="uk-slider-items uk-grid">
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti1.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Harapan Bangsa <span uk-icon="icon: cb" style="color: #1892DD;"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti2.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Al-Muallaf <span style="color: #1892DD;" uk-icon="icon: cb"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti1.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Harapan Bangsa <span uk-icon="icon: cb" style="color: #1892DD;"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                </ul>
+                <!----------Tempat Kasih List------------------->
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+            <!------------------------Tempat Kasih-------------------------->
+
+            <span id="pemisah1"></span>
+
+            <!------------------------Kasih Barang-------------------------->
+            <div class="link" style="margin-top: 35px;">
+                <h2 class="uk-text-left uk-margin tk"><b>Kasih Barang</b></a>
+
+                    <a href="" class="uk-text-right ls">Lihat semua</a>
+            </div>
+
+            <!-------------------------Slider--------------------------->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" style="border-bottom: 4px solid #F1F3F6;">
+                <!----------Kasih Barang List------------------->
+                <ul class="uk-slider-items uk-grid">
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang1.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">Gesper Sekolah </a>
+                                <p id="alamatb">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang2.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">TV Tabung Aira Kirei</a>
+                                <p id="alamatb">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang1.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">Gesper Sekolah</a>
+                                <p id="alamatb">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang2.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">TV Tabung Aira Kirei</a>
+                                <p id="alamatb">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                </ul>
+                <!----------Kasih Barang List------------------->
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+
+            <!----------Kasih Barang List------------------->
+
+        </li>
+
+        <!------------------------Tempat Kasih Terbaru-------------------------->
+
+        <!------------------------Tempat Kasih Terdekat------------------------->
+        <li id="terdekat">
+
+            <!------------------------Tempat Kasih-------------------------->
+            <div class="link">
+                <p class="uk-text-left uk-margin tk">Tempat Kasih</a>
+
+                    <a href="" class="uk-text-right ls">Lihat semua</a>
+            </div>
+
+            <!-------------------------Slider--------------------------->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+                <!----------Tempat Kasih List------------------->
+                <ul class="uk-slider-items uk-grid">
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti2.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Al-Muallaf <span uk-icon="icon: cb" style="color: #1892DD;"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti1.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Harapan Bangsa <span style="color: #1892DD;" uk-icon="icon: cb"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti2.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Al-Muallaf <span uk-icon="icon: cb" style="color: #1892DD;"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                </ul>
+                <!----------Tempat Kasih List------------------->
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+            <!------------------------Tempat Kasih-------------------------->
+
+            <span id="pemisah1"></span>
+
+            <!------------------------Kasih Barang-------------------------->
+            <div class="link" style="margin-top: 35px;">
+                <h2 class="uk-text-left uk-margin tk"><b>Kasih Barang</b></a>
+
+                    <a href="" class="uk-text-right ls">Lihat semua</a>
+            </div>
+
+            <!-------------------------Slider--------------------------->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" style="border-bottom: 4px solid #F1F3F6;">
+                <!----------Kasih Barang List------------------->
+                <ul class="uk-slider-items uk-grid">
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang2.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">TV Tabung Aira Kirei </a>
+                                <p id="alamatb">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang1.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">Gesper Sekolah</a>
+                                <p id="alamatb">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang2.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">TV Tabung Aira Kirei</a>
+                                <p id="alamatb">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang1.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">Gesper Sekolah</a>
+                                <p id="alamatb">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                </ul>
+                <!----------Kasih Barang List------------------->
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+
+            <!----------Kasih Barang List------------------->
+
+
+        </li>
+
+        <!----------Tempat Kasih Terdekat-------------------->
+
+        <!----------Tempat Kasih Saran----------------------->
+        <li id="saran">
+
+            <!------------------------Tempat Kasih-------------------------->
+            <div class="link">
+                <p class="uk-text-left uk-margin tk">Tempat Kasih</a>
+
+                    <a href="" class="uk-text-right ls">Lihat semua</a>
+            </div>
+
+            <!-------------------------Slider--------------------------->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
+                <!----------Tempat Kasih List------------------->
+                <ul class="uk-slider-items uk-grid">
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti1.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Harapan Bangsa <span uk-icon="icon: cb" style="color: #1892DD;"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti2.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Al-Muallaf <span style="color: #1892DD;" uk-icon="icon: cb"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-3-4" style="margin-left: -30px;">
+                        <div class="uk-panel">
+                            <img src="../asset/img/panti1.png" width="400" height="600" alt="Tempat Kasih" id="panel">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namatempat">Panti Asuhan Harapan Bangsa <span uk-icon="icon: cb" style="color: #1892DD;"></span> <span uk-icon="icon: ch" style="color: #27AE60;"></span></a>
+                                <p id="tanggal">20 April 2021 • 1x dibantu</p>
+                                <p id="alamat">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                </ul>
+                <!----------Tempat Kasih List------------------->
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+            <!------------------------Tempat Kasih-------------------------->
+
+            <span id="pemisah1"></span>
+
+            <!------------------------Kasih Barang-------------------------->
+            <div class="link" style="margin-top: 35px;">
+                <h2 class="uk-text-left uk-margin tk"><b>Kasih Barang</b></a>
+
+                    <a href="" class="uk-text-right ls">Lihat semua</a>
+            </div>
+
+            <!-------------------------Slider--------------------------->
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true" style="border-bottom: 4px solid #F1F3F6;">
+                <!----------Kasih Barang List------------------->
+                <ul class="uk-slider-items uk-grid">
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang1.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">Gesper Sekolah </a>
+                                <p id="alamatb">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang2.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">TV Tabung Aira Kirei</a>
+                                <p id="alamatb">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang1.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">Gesper Sekolah</a>
+                                <p id="alamatb">Bogor Tengah • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                    <li class="uk-width-1-2 uk-card uk-card-default" id="cardbarang">
+                        <div class="uk-panel">
+                            <img src="../asset/img/barang2.png" width="400" height="600" alt="Tempat Kasih" id="panelbarang">
+                            <!----Deskripsi----->
+                            <div class="uk-panel">
+                                <a id="namaBarang">TV Tabung Aira Kirei</a>
+                                <p id="alamatb">Bogor Barat • 2 km</p>
+                            </div>
+                            <!----Deskripsi----->
+                        </div>
+                    </li>
+
+                </ul>
+                <!----------Kasih Barang List------------------->
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+
+            <!----------Kasih Barang List------------------->
+        </li>
+
+        <!--------Tempat Kasih Saran------------------------>
+
+    </ul>
+    <!----------------------Nav Slide Switcher---------------------->
+
+
+    <!-----------Kasihbaik.com adalah--------------->
+    <div style="margin-top: 20px;border-bottom: 4px solid #F1F3F6;">
+        <p uk-icon="icon: kasihbaik" style="margin-left: 14px;color: #1892DD;"></p>
+        <span id="kasihbaik">Kasihbaik.com</span>
+        <p id="deskripsi" style="margin-left: 14px;" class="toggle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+        <p id="deskripsi" class="toggle" style="margin-left: 14px;" hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas
+            odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+        <span id="moredrop" class="moredrop"><span style="margin-left: 180px; color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle"></span></span>
+
+        <!----ReadMore----->
+
+    </div>
+    <!-----------Kasihbaik.com adalah--------------->
+
+    <!-----------Faq-------------------------------->
+    <div style="margin-top: 20px;border-bottom: 4px solid #F1F3F6;">
+        <p uk-icon="icon: faq" style="margin-left: 14px;color: #1892DD;"></p>
+        <!-----Question 1-->
+        <p style="margin-left: 14px;font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;" class="toggle1">Bagaimana Caranya Menjadi Orang Baik? <span id="q1" class="q1"><span style="color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle1"></span></span>
+        </p>
+        <p class="toggle1" style="margin-left: 14px; color: #000;font-weight: bold;font-size: 12px;" hidden>
+            <span style="font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;">Bagaimana Caranya Menjadi Orang Baik? </span>
+            <!--Icon-->
+            <span id="q1" class="q1"><span style="color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle1"></span></span>
+            <!--icon-->
+            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan
+            maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+
+        <!-----Question 1-->
+
+        <!-----Question 2-->
+        <p style="margin-left: 14px;font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;" class="toggle2">Bagaimana cara request validasi Tempat Kasih? <span id="q2" class="q2"><span style="color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle2"></span></span>
+        </p>
+        <p class="toggle2" style="margin-left: 14px; color: #000;font-weight: bold;font-size: 12px;" hidden>
+            <span style="font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;">Bagaimana cara request validasi Tempat Kasih? </span>
+            <!--Icon-->
+            <span id="q2" class="q2"><span style="color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle2"></span></span>
+            <!--icon-->
+            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan
+            maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+
+        <!-----Question 2-->
+
+        <!-----Question 3-->
+        <p style="margin-left: 14px;font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;" class="toggle3">Bagaimana cara mengubah lokasi akun? <span id="q3" class="q3"><span style="color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle3"></span></span>
+        </p>
+        <p class="toggle3" style="margin-left: 14px; color: #000;font-weight: bold;font-size: 12px;" hidden>
+            <span style="font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;">Bagaimana cara mengubah lokasi akun? </span>
+            <!--Icon-->
+            <span id="q3" class="q3"><span style="color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle3"></span></span>
+            <!--icon-->
+            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan
+            maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+
+        <!-----Question 3-->
+
+        <!-----Question 4-->
+        <p style="margin-left: 14px;font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;" class="toggle4">Bagaimana cara mengganti nomor HP/E-mail? <span id="q4" class="q4"><span style="color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle4"></span></span>
+        </p>
+        <p class="toggle4" style="margin-left: 14px; color: #000;font-weight: bold;font-size: 12px;" hidden>
+            <span style="font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;">Bagaimana cara mengganti nomor HP/E-mail? </span>
+            <!--Icon-->
+            <span id="q4" class="q4"><span style="color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle4"></span></span>
+            <!--icon-->
+            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan
+            maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+
+        <!-----Question 4-->
+
+        <!-----Question 5-->
+        <p style="margin-left: 14px;font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;" class="toggle5">Perbedaan verifikasi dan validasi? <span id="q5" class="q5"><span style="color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle5"></span></span>
+        </p>
+        <p class="toggle5" style="margin-left: 14px; color: #000;font-weight: bold;font-size: 12px;" hidden>
+            <span style="font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;">Perbedaan verifikasi dan validasi? </span>
+            <!--Icon-->
+            <span id="q5" class="q5"><span style="color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle5"></span></span>
+            <!--icon-->
+            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan
+            maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+
+        <!-----Question 5-->
+
+        <!-----Question 5-->
+        <p style="margin-left: 14px;font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;" class="toggle6">Postingan gagal/tidak terkirim? <span id="q6" class="q6"><span style="color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle6"></span></span>
+        </p>
+        <p class="toggle6" style="margin-left: 14px; color: #000;font-weight: bold;font-size: 12px;" hidden>
+            <span style="font-weight: 1000;font-size: 12px;line-height: 15px;color: #000;">Postingan gagal/tidak terkirim? </span>
+            <!--Icon-->
+            <span id="q6" class="q6"><span style="color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle6"></span></span>
+            <!--icon-->
+            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum accumsan
+            maecenas odio tortor. Ultrices elit arcu, non neque risus integer sagittis. Ac non non, </p>
+
+        <!-----Question 5-->
+    </div>
+    <!-----------faq-------------------------------->
+
+    <!-----Syarat dan ketentuan--------------------->
+    <div style="margin-top: 20px; margin-bottom: 110px;">
+        <p id="sdank" style="margin-left: 14px;color: #404C60;">
+            <a href="" id="syarat">Syarat & Ketentuan</a> | <a href="" id="syarat">Kebijakan Privasi</a>
+        </p>
+
+        <!----ReadMore----->
+
+    </div>
+    <!-----Syarat dan ketentuan--------------------->
+
+    <!---Bottom Navbar fixed--->
+    <nav class="uk-navbar-container fixed-bottom" uk-navbar="mode: click">
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#" uk-icon="icon: homes" id="active"></a>
+                </li>
+                <li>
+                    <a href="#" uk-icon="icon: pesan" id="marginin"></a>
+                </li>
+                <li>
+                    <a href="#" uk-icon="icon: prof"></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!---Bottom Navbar------>
+
+
+
+    <!-----Script------->
+    <script>
+        //jika id moredrop di tekan maka ubah iconnya
+
+        var morelearn = document.getElementById('moredrop');
+
+        morelearn.addEventListener('click', function() {
+
+            if (morelearn.classList.contains('moretop')) {
+                morelearn.classList.remove('moretop');
+                morelearn.classList.add('moredrop');
+                morelearn.innerHTML = '<span style="margin-left: 180px; color: #1892DD;" uk-icon="icon: moredrop" uk-toggle="target: .toggle"></span>';
+            } else if (morelearn.classList.contains('moredrop')) {
+                morelearn.classList.remove('moredrop');
+                morelearn.classList.add('moretop');
+                morelearn.innerHTML = '<span style="margin-left: 180px; color: #1892DD;" uk-icon="icon: moretop" uk-toggle="target: .toggle"></span>';
+            }
+        });
+    </script>
+
+</body>
+
+</html>
